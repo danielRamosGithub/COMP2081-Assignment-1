@@ -1,0 +1,49 @@
+/* Custom .css File */
+
+/* Removing padding from contrainer-fluid */
+.container-fluid {
+    padding: 0px;
+}
+
+section {
+    padding:40px;
+}
+
+header nav, footer {
+    background-color: #612d07;
+}
+
+footer p {
+    padding: 25px;
+    color: white;
+    margin: 0;
+}
+
+/* Centralize the images -- not working */
+.margin-auto {
+    margin: 0 auto;
+}
+
+.contact-section {
+    background-color: #fd8624;
+    color: white;
+    text-align: center;
+}
+
+.contact-section div.d-flex div {
+    padding: 20px;
+}
+
+.contact-section h3 {
+    color: #e8e8e8;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    text-align: justify;
+}
+
+/* fontawesome icons */
+.fa {
+    margin-left: 15px;
+}
